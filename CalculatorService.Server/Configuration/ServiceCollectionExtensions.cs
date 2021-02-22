@@ -9,7 +9,7 @@ namespace CalculatorService.Server.Configuration
     public static class ServiceCollectionExtensions
     {
 
-        public static void AddCalculatorServices(this IServiceCollection services, IConfiguration configuration)
+        public static void AddCalculatorServices(this IServiceCollection services)
         {
             services.AddTransient<IMathService, MathService>();
             services.AddSingleton<IPersistenceService, PersistenceService>();
