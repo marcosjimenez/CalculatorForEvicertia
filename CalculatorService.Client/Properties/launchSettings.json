@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CalculatorService.Client": {
+      "commandName": "Project",
+      "commandLineArgs": "mult -f 2 2 -t 5"
+    }
+  }
+}
